@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(8, 170, 35),rgb(113, 13, 228));
+    background-repeat: no repeat;
+}
+
+header{
+    width: 80vw;
+    margin: auto;
+    position: relative;
+    top: 75px;
+
+}
+
+h1{
+    text-align: center;
+    color: pink;
+    text-shadow: 1px 1px 2px black;
+}
+
+section{
+   
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(172, 19, 233),rgb(226, 140, 11));
+}
+
+.imagem{
+    width: 100%;
+    margin: -1px -1px;
+}
+
+img{
+    border-radius: 10px;
+   
+}
+
+.login{
+    height: 50px;
+}
+
+div > form > div{
+    margin: 5px 10px;
+    float: right;
+   
+
+}
+button{
+    background-color: blue;
+    color: rgb(248, 0, 165);
+    font-weight: bolder;
+    width: 50px;
+    height: 20px;
+    margin-top: 10px;
+
+}
+
+a{
+    color: rgb(206, 2, 138);
+    text-shadow: 2px 1px 2px black;
+    text-decoration: none;
+}
+input{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bolder;
+    height: 23px;
+    border-radius: 10px;
+}
